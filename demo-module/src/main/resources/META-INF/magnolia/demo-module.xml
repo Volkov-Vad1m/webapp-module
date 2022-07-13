@@ -10,6 +10,16 @@
 
   <!-- For more information on module descriptor configuration options -->
   <!-- https://documentation.magnolia-cms.com/display/DOCS/XML-based+module+descriptor -->
+  <components>
+
+    <id>main</id>
+    <component>
+      <type>com.module.demo.templating.functions.HelloWorldTemplatingFunctions</type>
+      <implementation>com.module.demo.templating.functions.HelloWorldTemplatingFunctions</implementation>
+      <scope>singleton</scope>
+    </component>
+
+  </components>
 
   <dependencies>
     <dependency>

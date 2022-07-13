@@ -1,1 +1,4 @@
-<div>This is the output of the dummy component (which was created by Maven archetype).</div>
+${hellofn.sayHello()}
+${hellofn.sayHello(2)}
+${hellofn.random()}
+

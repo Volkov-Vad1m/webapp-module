@@ -32,6 +32,10 @@
       <artifactId>magnolia-core</artifactId>
     </dependency>
 
+    <dependency>
+      <groupId>info.magnolia</groupId>
+      <artifactId>magnolia-rendering</artifactId>
+    </dependency>
     <!-- TEST -->
     <dependency>
       <groupId>junit</groupId>
