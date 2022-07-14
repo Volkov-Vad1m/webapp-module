@@ -26,6 +26,7 @@
       <artifactId>magnolia-empty-webapp</artifactId>
       <type>war</type>
     </dependency>
+
     <dependency>
       <groupId>info.magnolia</groupId>
       <artifactId>magnolia-empty-webapp</artifactId>
@@ -37,36 +38,43 @@
       <artifactId>demo-module</artifactId>
     </dependency>
 
+    <!--apps -->
+    <dependency>
+      <groupId>info.magnolia.rest</groupId>
+      <artifactId>magnolia-rest-integration</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.rest</groupId>
+      <artifactId>magnolia-rest-services</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.rest</groupId>
+      <artifactId>magnolia-rest-content-delivery</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.dam</groupId>
+      <artifactId>magnolia-dam-app</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.site</groupId>
+      <artifactId>magnolia-site-app</artifactId>
+    </dependency>
+
+
     <!-- option ii - magnolia-community-webapp -->
     <!-- Dependencies versions are already imported by parent pom. Requires "Option A" in the parent pom. -->
-    <!--
-    <dependency>
-      <groupId>info.magnolia.bundle</groupId>
-      <artifactId>magnolia-community-webapp</artifactId>
-      <type>war</type>
-    </dependency>
-    <dependency>
-      <groupId>info.magnolia.bundle</groupId>
-      <artifactId>magnolia-community-webapp</artifactId>
-      <type>pom</type>
-    </dependency>
-    -->
 
+<!--    <dependency>-->
+<!--      <groupId>info.magnolia.bundle</groupId>-->
+<!--      <artifactId>magnolia-community-webapp</artifactId>-->
+<!--      <type>war</type>-->
+<!--    </dependency>-->
+<!--    <dependency>-->
+<!--      <groupId>info.magnolia.bundle</groupId>-->
+<!--      <artifactId>magnolia-community-webapp</artifactId>-->
+<!--      <type>pom</type>-->
+<!--    </dependency>-->
 
-    <!-- option iii - magnolia-dx-core-webapp -->
-    <!-- Dependencies versions are already imported by parent pom. Requires "Option B" in the parent pom. -->
-    <!--
-    <dependency>
-      <groupId>info.magnolia.dx</groupId>
-      <artifactId>magnolia-dx-core-webapp</artifactId>
-      <type>war</type>
-    </dependency>
-    <dependency>
-      <groupId>info.magnolia.dx</groupId>
-      <artifactId>magnolia-dx-core-webapp</artifactId>
-      <type>pom</type>
-    </dependency>
-    -->
 
   </dependencies>
 
